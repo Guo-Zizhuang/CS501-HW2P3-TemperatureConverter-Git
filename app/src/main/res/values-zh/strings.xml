@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HW3P3-TemperatureConverter</string>
+    <string name="Celsius">摄氏度</string>
+    <string name="Fahrenheit">华氏度</string>
+    <string name="interest">给你看点好康的！</string>
+    <string name="cold">让我康康？呀儿哟，好冷！</string>
+    <string name="warm">让我康康？呀儿哟，好热！</string>
+</resources>

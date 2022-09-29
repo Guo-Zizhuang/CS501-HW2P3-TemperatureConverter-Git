@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW3P3-TemperatureConverter</string>
+    <string name="Celsius">Celsius</string>
+    <string name="Fahrenheit">Fahrenheit</string>
+    <string name="interest">Interesting Message.</string>
+    <string name="cold">I wish it were warmer.</string>
+    <string name="warm">I wish it were colder.</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HW3P3-TemperatureConverter</string>
+    <string name="Celsius">摂氏</string>
+    <string name="Fahrenheit">華氏</string>
+    <string name="interest">面白そうい物を見せよう！</string>
+    <string name="cold">ああああ！とっても寒い！寒すぎる！</string>
+    <string name="warm">ああああ！とっても暑い！暑すぎる！</string>
+</resources>

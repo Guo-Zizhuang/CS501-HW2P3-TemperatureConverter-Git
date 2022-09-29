@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/celsius_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/Celsius"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/celsius_SeekBar"
+        android:layout_width="280dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="56dp"
+        android:max="100"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="@+id/celsius_TextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/celsius_TextView"
+        app:layout_constraintTop_toTopOf="@+id/celsius_TextView" />
+
+    <EditText
+        android:id="@+id/celsius_EditText"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/celsius_SeekBar"
+        app:layout_constraintStart_toStartOf="@+id/celsius_SeekBar"
+        app:layout_constraintTop_toTopOf="@+id/celsius_SeekBar" />
+
+    <TextView
+        android:id="@+id/fahrenheit_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="@string/Fahrenheit"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/celsius_TextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/celsius_TextView"
+        app:layout_constraintTop_toTopOf="@+id/celsius_TextView" />
+
+    <SeekBar
+        android:id="@+id/fahrenheit_SeekBar"
+        android:layout_width="280dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="52dp"
+        android:max="212"
+        android:progress="32"
+        app:layout_constraintEnd_toEndOf="@+id/fahrenheit_TextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fahrenheit_TextView"
+        app:layout_constraintTop_toTopOf="@+id/fahrenheit_TextView" />
+
+    <EditText
+        android:id="@+id/fahrenheit_EditText"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="32"
+        app:layout_constraintEnd_toEndOf="@+id/fahrenheit_SeekBar"
+        app:layout_constraintStart_toStartOf="@+id/fahrenheit_SeekBar"
+        app:layout_constraintTop_toTopOf="@+id/fahrenheit_SeekBar" />
+
+    <TextView
+        android:id="@+id/interestMessage_TextView"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="392dp"
+        android:gravity="center"
+        android:text="@string/interest"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/celsius_TextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/celsius_TextView"
+        app:layout_constraintTop_toTopOf="@+id/celsius_TextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
